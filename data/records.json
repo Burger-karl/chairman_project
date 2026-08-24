@@ -1,0 +1,12 @@
+{
+    "Charles": {
+        "joined": "2026-08-24",
+        "payments": [
+            {
+                "month": "January",
+                "amount": 2000.0,
+                "date_paid": "2026-08-24"
+            }
+        ]
+    }
+}
