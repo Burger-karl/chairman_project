@@ -3,10 +3,19 @@
         "joined": "2026-08-24",
         "payments": [
             {
-                "month": "January",
+                "month": "January 2026",
                 "amount": 2000.0,
                 "date_paid": "2026-08-24"
+            },
+            {
+                "month": "May 2026",
+                "amount": 3000.0,
+                "date_paid": "2026-08-25"
             }
         ]
+    },
+    "Aragorn Legolas": {
+        "joined": "2026-08-25",
+        "payments": []
     }
 }

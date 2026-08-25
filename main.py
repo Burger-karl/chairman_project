@@ -28,7 +28,7 @@ def main():
             storage.save_records(records)
 
         elif choice == '4':
-            payments.show_owing_status(records)
+            payments.show_owe_status(records)
 
         elif choice == '5':
             payments.show_member_history(records)
