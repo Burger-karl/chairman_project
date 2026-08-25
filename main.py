@@ -12,9 +12,11 @@ def main():
         print("3. Record a payment")
         print("4. Check who has paid / who is owing")
         print("5. View one member's history")
-        print("6. Exit")
+        print("6. Back up records")
+        print("7. Import members from new_members.txt")
+        print("8. Exit")
 
-        choice = input("Choose an option (1-6): ")
+        choice = input("Choose an option (1-8): ")
 
         if choice == '1':
             members.add_member(records)
@@ -34,11 +36,18 @@ def main():
             payments.show_member_history(records)
 
         elif choice == '6':
+            storage.backup_records()
+
+        elif choice == '7':
+            members.import_members_from_file(records)
+            storage.save_records(records)
+
+        elif choice == '8':
             running = False
             print("Goodbye, Chairman!")
 
         else:
-            print("Please choose 1-6.")
+            print("Please choose 1-8.")
 
 
 if __name__ == '__main__':
